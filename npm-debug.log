@@ -1,0 +1,26 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'run', 'tsc:w' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose run-script [ 'pretsc:w', 'tsc:w', 'posttsc:w' ]
+5 info pretsc:w angular2-quickstart@1.0.0
+6 info tsc:w angular2-quickstart@1.0.0
+7 verbose unsafe-perm in lifecycle true
+8 info angular2-quickstart@1.0.0 Failed to exec tsc:w script
+9 error angular2-quickstart@1.0.0 tsc:w: `tsc -w`
+9 error Exit status 8
+10 error Failed at the angular2-quickstart@1.0.0 tsc:w script.
+10 error This is most likely a problem with the angular2-quickstart package,
+10 error not with npm itself.
+10 error Tell the author that this fails on your system:
+10 error     tsc -w
+10 error You can get their info via:
+10 error     npm owner ls angular2-quickstart
+10 error There is likely additional logging output above.
+11 error System Darwin 15.3.0
+12 error command "/usr/local/bin/node" "/usr/local/bin/npm" "run" "tsc:w"
+13 error cwd /Users/denchev/Work/Lab/angular2-quickstart
+14 error node -v v0.10.28
+15 error npm -v 1.4.9
+16 error code ELIFECYCLE
+17 verbose exit [ 1, true ]
